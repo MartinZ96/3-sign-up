@@ -24,4 +24,4 @@ Design: [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/6488
 
 ## Authors
 
-[Martynas](https://github.com/belauzas)
+[Martynas](https://github.com/MartinZ96)
