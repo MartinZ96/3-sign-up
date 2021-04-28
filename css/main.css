@@ -1,3 +1,13 @@
+body,
+body *{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+
+}
+
 body{
 background-color: aqua;
 }
@@ -12,7 +22,10 @@ margin-left: calc(50% - 400px);
 
 .left-column{
 width: 40%;
+padding: 40px;
 float: left;
+background-color: antiquewhite;
+box-sizing: border-box;
 }
 
 .main-title{
@@ -38,7 +51,10 @@ color: #fff;
 .right-column   {
 display: inline-block;
 width: 60%;
+padding: 40px;
 float:left;
+background-color: blueviolet;
+box-sizing: border-box;
 }
 
 .close
