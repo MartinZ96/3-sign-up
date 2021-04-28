@@ -22,10 +22,14 @@ margin-left: calc(50% - 400px);
 
 .left-column{
 width: 40%;
+height: 400px;
 padding: 40px;
 float: left;
-background-color: antiquewhite;
-box-sizing: border-box;
+background-color: #5c37a8;
+background-image: url(../img/Sign_up_edited.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center ;
 }
 
 .main-title{
@@ -40,7 +44,7 @@ width: 100%;
 color: #fff;
 }
 
-.links{
+.link{
 color: #fff;
 }
 
@@ -51,10 +55,9 @@ color: #fff;
 .right-column   {
 display: inline-block;
 width: 60%;
-padding: 40px;
+padding: 60px;
 float:left;
 background-color: blueviolet;
-box-sizing: border-box;
 }
 
 .close
