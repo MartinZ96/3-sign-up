@@ -8,40 +8,56 @@ body *{
 
 }
 
-body{
+.body{
 background-color: aqua;
+position: relative;
+}
+
+.background{
+    height: 100vh;
+    background-image: url(../img/Sign_up_edited.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px);
 }
 
 .container{
-display: inline-block;
-width: 800px;
-background-color: yellow;
-margin-top: 100px;
-margin-left: calc(50% - 400px);
+    display: inline-block;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .left-column{
-width: 40%;
-height: 400px;
-padding: 40px;
-float: left;
-background-color: #5c37a8;
-background-image: url(../img/Sign_up_edited.png);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center ;
+    width: 40%;
+    padding: 40px;
+    background-color: #5c37a8;
+    background-image: url(../img/Sign_up_edited.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+
 }
 
 .main-title{
-display: inline-block;
-width: 100%;
-color: #fff;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
 }
 
 .bottom-links{
-display: inline-block;
-width: 100%;
-color: #fff;
+    display: inline-block;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
 }
 
 .link{
@@ -53,21 +69,24 @@ color: #fff;
 }
 
 .right-column {
-width: 60%;
-padding: 60px;
-float:left;
-background-color: blueviolet;
-position: relative;
+    width: 60%;
+    float: right;
+    padding: 60px;
+    background-color: blueviolet;
+
 }
 
 .close{
     display: inline-block;
     width: 60px;
     height: 60px;
-    background-color: tomato;
     position: absolute;
     top: 0;
     right: 0;
+    font-size: 30px;
+    text-align: center;
+    line-height: 55px;
+
 }
 
 .form{
